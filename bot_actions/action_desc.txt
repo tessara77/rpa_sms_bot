@@ -1,0 +1,23 @@
+Connect to the 'imap' server at host imap.gmail.com and port 993 to access email.
+Open the attendance sheet using advanced Excel.
+Retrieve data from multiple cells and assign it to the Excel sheet.
+For each row in the worksheet, assign the data to a variable named 'excelrow'.
+Check if the attendance status column for each student is marked as absent (0) or present (1).
+Convert the system date to a string and save it to a variable.
+Send an email to the student's email address with a subject line indicating their absence on a specific date.
+Prompt the user to input a value 'n' during bot execution, which will be used to loop over for n students' marks details.
+Repeat the following actions for 'n' number of times:
+Display an interactive form called 'studform' to gather the students' personal details.
+Trigger a loop to break after recording all 3 internal marks.
+Handle the event of the submit button being clicked on the form.
+Retrieve the values entered in the form and assign them to variables for name, USN, and email.
+Close the 'studform'.
+Display another interactive form called 'iamarks form'.
+Trigger a loop to handle when the 'ctrl+1' key combination is pressed.
+Retrieve the values entered in the form and assign them to respective subject internal marks variables.
+Close the 'iamarks' form.
+Repeat the above steps for all three internal marks.
+Calculate the average marks of three internals for all subjects using the 'numberutils' function.
+Send an email to the parent's email address with a subject line indicating the final internal marks report.
+Break out of the loop.
+End the bot execution.
